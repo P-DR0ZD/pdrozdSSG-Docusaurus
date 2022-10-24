@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const organizationName = `P-DR0ZD`; // Usually your GitHub org/user name.
 const projectName= `pdrozdSSG-Docusaurus`; // Usually your repo name.
-
+const deploymentBranch= `gh-pages`
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
@@ -16,6 +16,8 @@ const config = {
 
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
+  organizationName: `P-DR0ZD`,
+  projectName: `pdrozdSSG-Docusaurus`,
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: 'throw',

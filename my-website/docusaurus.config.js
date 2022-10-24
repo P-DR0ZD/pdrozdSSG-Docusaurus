@@ -20,6 +20,7 @@ const config = {
   projectName: `pdrozdSSG-Docusaurus`,
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
+  deploymentBranch: `gh-pages`,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
